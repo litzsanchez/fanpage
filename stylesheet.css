@@ -1,8 +1,34 @@
-body{
+.body{
     background-color: #ffcc99;
     font-family: cursive;
 }
 
-img{
+gallery{
     width: 30px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    font-family: 'Charmonman', cursive;
+    color: brown;
+    font-size: 30px;
+    font-weight: bold;
+    
+
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-decoration: underline;
+    font-size: 18px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
 }
